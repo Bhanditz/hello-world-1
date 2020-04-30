@@ -8,12 +8,16 @@
   "scripts": {
     "start": "node bin/dev-server.js",
     "test": "echo 'no tests'",
-    "update-yarn-lock-file": "update-yarn-lock-file"
+    "update-yarn-lock-file": "update-yarn-lock-file",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "devtools-launchpad": "^0.0.41"
+    "devtools-launchpad": "^0.0.41",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "circleci-update-yarn-lock": "^3.0.0"
-  }
+  },
+  "snyk": true
 }
