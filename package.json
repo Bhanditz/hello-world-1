@@ -11,7 +11,7 @@
     "update-yarn-lock-file": "update-yarn-lock-file"
   },
   "dependencies": {
-    "devtools-launchpad": "^0.0.41"
+    "devtools-launchpad": "^0.0.99"
   },
   "devDependencies": {
     "circleci-update-yarn-lock": "^3.0.0"
